@@ -67,11 +67,11 @@ mydict4=dict.fromkeys(("key1","key2"), 1)
 print(mydict4)
 
 
-car = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+mydict5 = {
+  "name": "Satyanarayana",
+  "age": 23,
+  "dob": 1996
 }
-car.update({"brand": "volvo"})
-car.update({"color": "White"})
-print(car)
+mydict5.update({"gender": male})
+mydict5.update({"material": "single"})
+print(mydict5)
