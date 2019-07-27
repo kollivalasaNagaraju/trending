@@ -1,0 +1,74 @@
+pyhon used for : 
+ 
+ Data Analysis
+ AI/ML
+ Automation
+ Web Apps
+ Mobile Apps
+ Desktop Apps
+ Testing
+ Hacking
+
+python why :
+ 
+ High Level
+ cross-platform
+ Huge Community
+ Large Ecosystem
+ 
+
+A Multi-purpose language with a simple , and beginner-friendly language
+
+python --version #Python 2.7.12
+
+logging out put - print()
+command line input - raw_input()
+
+Python Indentations ::
+Where in other programming languages the indentation in code is for readability only, in Python the indentation is very important.
+Python uses indentation to indicate a block of code.
+
+Variables are containers for storing data values.Unlike other programming languages, Python has no command for declaring a variable.
+
+There are three numeric types in Python :
+syntx : type()
+int    - typeof int is <type 'int'> example : 1 , -1
+float - typeof float is <type 'float'> example : 1.1 , 35e3 , 12E4 , -87.7e100
+complex - typeof float is <type 'complex'> example : 1j , 1+1j , 1-1j
+
+conversions : float(1) , int(2.8) , complex(1)
+You cannot convert complex numbers into another number type.
+
+Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers
+
+Operators are used to perform operations on variables and values.
+
+Python divides the operators in the following groups:
+
+Arithmetic operators :: +,-,*,/,%,**,//
+Assignment operators :: =
+Comparison operators :: ==,>=,<=
+Logical operators :: and ,or ,not
+Identity operators :: is , is not
+Membership operators :: in , not in
+Bitwise operators :: & , | , 
+
+
+There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered and unindexed. No duplicate members.
+Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+
+append()	Adds an element at the end of the list
+clear()	        Removes all the elements from the list
+copy()		Returns a copy of the list
+count()		Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()		Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()		Removes the element at the specified position
+remove()	Removes the item with the specified value
+reverse()	Reverses the order of the list
+sort()		Sorts the list
