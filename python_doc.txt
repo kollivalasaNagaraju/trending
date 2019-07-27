@@ -61,6 +61,9 @@ Tuple is a collection which is ordered and unchangeable. Allows duplicate member
 Set is a collection which is unordered and unindexed. No duplicate members.
 Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
+List properties - mutable
+A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
+
 append()	Adds an element at the end of the list
 clear()	        Removes all the elements from the list
 copy()		Returns a copy of the list
@@ -72,3 +75,33 @@ pop()		Removes the element at the specified position
 remove()	Removes the item with the specified value
 reverse()	Reverses the order of the list
 sort()		Sorts the list
+
+Tuple properties - immutable
+A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.
+
+count() returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
+
+Set properties 
+A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.
+Sets are unordered, so the items will appear in a random order.
+Once a set is created, you cannot change its items, but you can add new items.
+
+add()				Adds an element to the set
+clear()				Removes all the elements from the set
+copy()				Returns a copy of the set
+difference()			Returns a set containing the difference between two or more sets
+difference_update()		Removes the items in this set that are also included in another, specified set
+discard()			Remove the specified item
+intersection()			Returns a set, that is the intersection of two other sets
+intersection_update()		Removes the items in this set that are not present in other, specified set(s)
+isdisjoint()			Returns whether two sets have a intersection or not
+issubset()			Returns whether another set contains this set or not
+issuperset()			Returns whether this set contains another set or not
+pop()				Removes an element from the set
+remove()			Removes the specified element
+symmetric_difference()		Returns a set with the symmetric differences of two sets
+symmetric_difference_update()	inserts the symmetric differences from this set and another
+union()				Return a set containing the union of sets
+update()			Update the set with the union of this set and others
+
