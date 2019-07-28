@@ -108,13 +108,33 @@ update()			Update the set with the union of this set and others
 A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
 
 clear()	      Removes all the elements from the dictionary
-copy()	      	Returns a copy of the dictionary
-fromkeys()	   Returns a dictionary with the specified keys and values
-get()	       	Returns the value of the specified key
+copy()	      Returns a copy of the dictionary
+fromkeys()    Returns a dictionary with the specified keys and values
+get()	      Returns the value of the specified key
 items()	      Returns a list containing the a tuple for each key value pair
-keys()	      	Returns a list containing the dictionary's keys
-pop()		       Removes the element with the specified key
-popitem()	    Removes the last inserted key-value pair
-setdefault()	 Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
-update()	     Updates the dictionary with the specified key-value pairs
-values()	     Returns a list of all the values in the dictionary
+keys()	      Returns a list containing the dictionary's keys
+pop()	      Removes the element with the specified key
+popitem()     Removes the last inserted key-value pair
+setdefault()  Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+update()      Updates the dictionary with the specified key-value pairs
+values()      Returns a list of all the values in the dictionary
+
+A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression.
+power of lambda is better shown when you use them as an anonymous function inside another function.
+Use lambda functions when an anonymous function is required for a short period of time.
+
+Python is an object oriented programming language.
+A Class is like an object constructor, or a "blueprint" for creating objects.
+All classes have a function called __init__(), which is always executed when the class is being initiated.
+
+Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being
+ created:
+The __init__() function is called automatically every time the class is being used to create a new object.
+
+inheritance allows us to define a class that inherits all the methods and properties from another class.
+Parent class is the class being inherited from, also called base class.
+Child class is the class that inherits from another class, also called derived class.
+Use the pass keyword when you do not want to add any other properties or methods to the class.
+
+
