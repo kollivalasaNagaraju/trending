@@ -137,4 +137,29 @@ Parent class is the class being inherited from, also called base class.
 Child class is the class that inherits from another class, also called derived class.
 Use the pass keyword when you do not want to add any other properties or methods to the class.
 
+The __init__() function is called automatically every time the class is being used to create a new object.
+
+To create an object/class as an iterator you have to implement the methods __iter__() and __next__() to your object.
+The __iter__() method acts similar, you can do operations (initializing etc.), but must always return the iterator object itself.
+
+The __next__() method also allows you to do operations, and must return the next item in the sequence.
+In the __next__() method, we can add a terminating condition to raise an error if the iteration is done a specified number of times:
+
+The try block lets you test a block of code for errors.
+The except block lets you handle the error.
+The finally block lets you execute code, regardless of the result of the try- and except blocks.
+
+The key function for working with files in Python is the open() function.
+The open() function takes two parameters; filename, and mode.
+
+There are four different methods (modes) for opening a file:
+
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+"x" - Create - Creates the specified file, returns an error if the file exists
+In addition you can specify if the file should be handled as binary or text mode
+"t" - Text - Default value. Text mode
+"b" - Binary - Binary mode (e.g. images)
+
 
